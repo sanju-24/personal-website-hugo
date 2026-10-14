@@ -10,4 +10,4 @@ I’d love to connect with you! Feel free to reach out to me through email or co
 - **GitHub:** [Sanjida Rahman](https://github.com/sanju-24)
 - **LinkedIn:** [Sanjida Rahman](https://www.linkedin.com/in/sanjida-rahman-b7645b3b0/)
 
-*Replace these example links with your real public profile details before publishing.*
+
