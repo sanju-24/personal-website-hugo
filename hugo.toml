@@ -1,0 +1,8 @@
+baseURL = "https://sanju-24.github.io/personal-website-hugo/"
+languageCode = "en-us"
+title = "Sanjida Rahman | Portfolio"
+enableRobotsTXT = true
+
+[params]
+  author = "Sanjida Rahman"
+  description = "Portfolio of Sanjida Rahman, Computer Science and Engineering graduate interested in UI/UX design and Flutter development."

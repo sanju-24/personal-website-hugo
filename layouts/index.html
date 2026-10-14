@@ -1,0 +1,35 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">PERSONAL PORTFOLIO</p>
+    <h1>Hello, I’m <span>Sanjida Rahman.</span></h1>
+    <p class="hero-lead">MSc CSE student exploring UI/UX design, mobile development, and data science.</p>
+    <div class="actions">
+      <a class="button primary" href="{{ "projects/" | relURL }}">View my projects</a>
+      <a class="button secondary" href="{{ "contact/" | relURL }}">Contact me</a>
+    </div>
+  </div>
+  <div class="hero-card" aria-label="Portfolio introduction">
+    <div class="avatar">SR</div>
+    <p class="card-label">CURIOUS BY NATURE</p>
+    <h2>Design. Build. Learn.</h2>
+    <p>I’m developing my skills by turning ideas into thoughtful digital experiences.</p>
+    <div class="tag-row"><span>UI/UX</span><span>Flutter</span><span>Data Science</span></div>
+  </div>
+</section>
+<section class="section">
+  <div class="section-heading">
+    <p class="eyebrow">A LITTLE ABOUT ME</p>
+    <h2>Learning with purpose</h2>
+  </div>
+  <div class="feature-grid">
+    <article class="feature"><div class="feature-icon">✳</div><h3>Design-minded</h3><p>I care about clear layouts, intuitive user flows, and accessible experiences.</p></article>
+    <article class="feature"><div class="feature-icon">⌘</div><h3>Technology curious</h3><p>I enjoy learning programming tools and understanding how digital products work.</p></article>
+    <article class="feature"><div class="feature-icon">↗</div><h3>Always improving</h3><p>I use academic projects and independent practice to build a stronger foundation.</p></article>
+  </div>
+</section>
+<section class="callout">
+  <div><p class="eyebrow">LET’S CONNECT</p><h2>Have a project or idea in mind?</h2><p>I’d be happy to connect and learn from new opportunities.</p></div>
+  <a class="button primary" href="{{ "contact/" | relURL }}">Get in touch ↗</a>
+</section>
+{{ end }}

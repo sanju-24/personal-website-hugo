@@ -1,0 +1,8 @@
+{{ define "main" }}
+<article class="page-content">
+  <p class="eyebrow">PORTFOLIO / {{ .Title | upper }}</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="page-intro">{{ . }}</p>{{ end }}
+  <div class="prose">{{ .Content }}</div>
+</article>
+{{ end }}
