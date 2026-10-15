@@ -36,7 +36,6 @@ Developed a 2D animated solar system simulation featuring planets with different
 
 ---
 
-© 2026 Sanjida Rahman · Built with Hugo
 
 
 
